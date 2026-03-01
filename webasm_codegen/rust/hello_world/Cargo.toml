@@ -1,0 +1,7 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+edition = "2021"
+
+# wasm32-wasi 타겟으로 빌드 시 std 사용 가능
+# cargo build --target wasm32-wasi --release
